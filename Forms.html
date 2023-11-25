@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        .form {
+            box-sizing: content-box;
+            border: 3px solid #5421ad;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .content {
+            box-sizing: content-box;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .position{
+            box-sizing: content-box;
+            padding: 100px;
+            margin: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>User Personal Information</h1>
+
+    <br>
+    <br>
+    <div class="form">
+        <form action="">
+            <div class="content">
+                <span class="postion">
+                    <label for="name">Name</label>
+
+                </span>
+
+                <span class="postion">
+                    <input type="text" name="name" id="name" required>
+
+                </span>
+
+               
+            </div>
+
+            <div class="content">
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age">
+
+            </div>
+
+
+
+            <div class="content">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div class="content">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" minlength="6">
+
+            </div>
+
+            <div class="content">
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone">
+            </div>
+
+            <div class="content">
+                <label for="dob">D.O.B</label>
+                <input type="date" name="dob" id="dob">
+
+            </div>
+
+            <div class="content">
+                <label>Gender</label>
+
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+
+            </div class="content">
+
+            <input type="submit" value="Contact">
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
