@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#todoList {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+li.completed {
+  text-decoration: line-through;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #d21268;
+}
+
+button.remove {
+  background-color: #ff6961;
+  border: none;
+  color: white;
+}
+
+button.complete {
+  background-color: #77dd77;
+  border: none;
+  color: white;
+}
